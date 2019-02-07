@@ -26,23 +26,23 @@ array.forEach((a) => {
 })
 
 // use map
-const mapArray = arrayTest.map((i) => i + 1);
-console.log(mapArray);
+const newArray = arrayTest.map((i) => i + 1);
+console.log(newArray);
 
 // use pop
-mapArray.pop();
-console.log(mapArray);
+newArray.pop();
+console.log(newArray);
 
 // use push
-mapArray.push(6);
-console.log(mapArray);
+newArray.push(6);
+console.log(newArray);
 
 // use shift
-mapArray.shift()
-console.log(mapArray);
+newArray.shift()
+console.log(newArray);
 
 // use unshift
-mapArray.unshift(5);
-console.log(mapArray);
+newArray.unshift(5);
+console.log(newArray);
 
 // use filter
